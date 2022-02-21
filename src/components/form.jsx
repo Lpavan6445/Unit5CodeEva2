@@ -100,7 +100,7 @@ export const Form=()=>{
                 return <td className={"gameprice"}>{e[key]}</td>
               }else if(key === "gamerating"){
                 return <td className={"gamerating"}>{e[key]}</td>
-              }else{return<td>{e[key]}</td>}})}
+              }else{return<td>{e[key]}</td>}})}0
             </tr>
          ))}
        </tbody>
